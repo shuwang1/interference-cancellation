@@ -1,0 +1,75 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2005.6.10)  10 SEP 2005 17:55
+entering extended mode
+**WCNC03-SynchSemi.tex
+(WCNC03-SynchSemi.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8g> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(IEEEtran.cls
+Document Class `IEEEtran' V1.5 <26-July-2001>
+Read the source comments for docs.
+Document Class: IEEEtran 2001/07/26 revision V1.5 by M. Shell and J. v.Hagen
+-- This is a 10 point document
+\@IEEEmarginA=\dimen102
+\@IEEEmarginB=\dimen103
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\dimen112
+\@iedjustify=\count79
+\@iedtopsep=\dimen113
+\@iedlabelwidth=\dimen114
+\@iedlabelsep=\dimen115
+\@iedleftmargin=\dimen116
+\@iedpartopsep=\dimen117
+\@iedparsep=\dimen118
+\@ieditemsep=\dimen119
+\@iedrightmargin=\dimen120
+\@iedlistparindent=\dimen121
+\@ieditemindent=\dimen122
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\@maxsep=\dimen123
+\@dblmaxsep=\dimen124
+\captionindent=\skip41
+\c@figure=\count84
+\c@table=\count85
+\tmpitemindent=\dimen125
+) (C:\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(C:\texmf\tex\latex\amscls\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip42
+\thm@postskip=\skip43
+\thm@headsep=\skip44
+\dth@everypar=\toks20
+
+
+! LaTeX Error: Command \proof already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.444 }
+       
+? 

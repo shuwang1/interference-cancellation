@@ -1,0 +1,32 @@
+function x = TLS(A, y)
+
+[row, col] = size( A );
+[U, D, V] = svd( [-y A], 0 );
+tol = max( size( [-y A] ) )*D(1,1)*eps;
+K = sum( diag(D) > tol );
+
+% x = pinv( A'*A - D(K,K)^2*eye(col) )*A'*y;
+% x = ( A'*A - D(K,K)^2*diag( [  zeros(1,col-K+1) ones(1,K-1) ] ) )\A'*y;
+% return
+
+g = V( 1, 1:(K-1) )
+c = V( 1, K:(col+1) )';
+[Q, R] = qr(c);
+VQ = V(:,K:col+1)*Q';
+
+x = - VQ(2:col+1,1)/VQ(1,1);
+return
+
+
+[U0, D0, V0] = svd( A, 0 );
+tol = max( size( A ) )*D0(1,1)*eps;
+K0 = sum( diag(D0) > tol );
+
+A0 = U0(:,1:K0)*D0(1:K0,1:K0)*V0(:,1:K0)';
+% A0 = U0(:,1:K0)*( D0(1:K0,1:K0) - D(K,K)*eye(K0) )*V0(:,1:K0)';
+
+% x = ( A'*A - D(K,K)^2*eye(col) )\A'*y;
+x = ( V0(:,1:K0)*( D0(1:K0,1:K0).^2-D(K,K)^2*eye(K0) )*V0(:,1:K0)' ) \ A0' * y;
+% x = ( A0'*A0-D(K,K)^2*eye(col) ) \ A0' * y;
+% x = A0\y;
+

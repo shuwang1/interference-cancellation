@@ -1,0 +1,184 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2004.10.25)  25 FEB 2005 21:23
+entering extended mode
+**SBMUD_globecom2.tex
+(SBMUD_globecom2.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8a> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(IEEETran.cls
+Document Class `IEEEtran' V1.5 <26-July-2001>
+Read the source comments for docs.
+
+LaTeX Warning: You have requested document class `IEEETran',
+               but the document class provides `IEEEtran'.
+
+Document Class: IEEEtran 2001/07/26 revision V1.5 by M. Shell and J. v.Hagen
+-- This is a 10 point document
+\@IEEEmarginA=\dimen102
+\@IEEEmarginB=\dimen103
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\dimen112
+\@iedjustify=\count79
+\@iedtopsep=\dimen113
+\@iedlabelwidth=\dimen114
+\@iedlabelsep=\dimen115
+\@iedleftmargin=\dimen116
+\@iedpartopsep=\dimen117
+\@iedparsep=\dimen118
+\@ieditemsep=\dimen119
+\@iedrightmargin=\dimen120
+\@iedlistparindent=\dimen121
+\@ieditemindent=\dimen122
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\@maxsep=\dimen123
+\@dblmaxsep=\dimen124
+\captionindent=\skip41
+\c@figure=\count84
+\c@table=\count85
+\tmpitemindent=\dimen125
+) (C:\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(C:\texmf\tex\latex\amscls\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip42
+\thm@postskip=\skip43
+\thm@headsep=\skip44
+\dth@everypar=\toks20
+)
+(C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4paper,fleqn].
+
+(SBMUD_globecom2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
+ (C:\texmf\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
+
+(C:\texmf\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
+ (C:\texmf\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 81.
+
+Underfull \hbox (badness 2626) in paragraph at lines 163--169
+[][]\OT1/ptm/m/n/10 We con-sider forward-link trans-mis-sions in a
+ []
+
+[1
+
+
+]
+File: MUD_model.eps Graphic file (type eps)
+ <MUD_model.eps> [2] [3]
+File: BMUD_structure12.eps Graphic file (type eps)
+ <BMUD_structure12.eps>
+Overfull \hbox (5.88637pt too wide) detected at line 576
+ [][]
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 591--597
+\OT1/ptm/m/n/10 multi-user de-tec-tor is as-ymp-totic multi-user ef-fi-ciency
+ []
+
+[4]
+File: BER_SNR_10_64.eps Graphic file (type eps)
+ <BER_SNR_10_64.eps>
+File: BER_A_SNR_10_64_LSs.eps Graphic file (type eps)
+ <BER_A_SNR_10_64_LSs.eps>
+File: BER_M_SNR_10_64_LSs.eps Graphic file (type eps)
+ <BER_M_SNR_10_64_LSs.eps>
+(SBMUD_globecom2.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 47.
+ (C:\texmf\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [5]
+Missing character: There is no ü in font ptmr7t!
+) [6
+
+]
+(SBMUD_globecom2.aux) ) 
+Here is how much of TeX's memory you used:
+ 1225 strings out of 95898
+ 12882 string characters out of 1195287
+ 71906 words of memory out of 1060835
+ 4191 multiletter control sequences out of 35000
+ 22205 words of font info for 73 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 25i,22n,43p,252b,269s stack positions out of 1500i,500n,5000p,200000b,32768s
+
+Output written on SBMUD_globecom2.dvi (6 pages, 41080 bytes).

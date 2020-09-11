@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {2}Conventional CDMA System Model And Problem Description}{7}
+\contentsline {subsection}{\numberline {2.1}CDMA Forward Link Model}{7}
+\contentsline {subsection}{\numberline {2.2}CDMA Reverse Link Model}{8}
+\contentsline {subsection}{\numberline {2.3}Problem Description}{9}
+\contentsline {section}{\numberline {3}Blind Multiuser System Model And Detection Framework}{11}
+\contentsline {subsection}{\numberline {3.1}Blind Multiuser System Model}{12}
+\contentsline {subsection}{\numberline {3.2}Blind Multiuser Detection Framework}{13}
+\contentsline {section}{\numberline {4}Blind Multiuser Detectors}{15}
+\contentsline {subsection}{\numberline {4.1}Least-Squares-Based Blind Detections}{15}
+\contentsline {subsubsection}{\numberline {4.1.1}Least Squares Detection }{15}
+\contentsline {subsubsection}{\numberline {4.1.2}Total Least Squares Estimation}{16}
+\contentsline {subsubsection}{\numberline {4.1.3}Mixed LS/TLS Detection}{16}
+\contentsline {subsection}{\numberline {4.2}Best Linear Unbiased Detection}{17}
+\contentsline {subsection}{\numberline {4.3}Minimum Mean Square Detection}{18}
+\contentsline {section}{\numberline {5}Multi-Window Asynchronous Blind Multiuser Detection}{19}
+\contentsline {section}{\numberline {6}Group-Wised Blind Multiuser Detection}{22}
+\contentsline {subsection}{\numberline {6.1}Group Blind Multiuser Detection For Forward Link}{22}
+\contentsline {subsection}{\numberline {6.2}Group Blind Multiuser Detection For Reverse Link}{24}
+\contentsline {section}{\numberline {7}Initial Setup And Adaptive Updating}{26}
+\contentsline {section}{\numberline {8}Performance Analysis}{27}
+\contentsline {section}{\numberline {9}Computer Simulations}{28}
+\contentsline {section}{\numberline {10}Conclusions}{29}

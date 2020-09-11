@@ -1,0 +1,33 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: BDFIC.aux
+The style file: unsrt.bst
+Database file #1: FastBDD.bib
+I was expecting a `,' or a `}'---line 880 of file FastBDD.bib
+ :     
+ :     year    ="2002",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: InterferenceCancellation.bib
+Repeated entry---line 182 of file InterferenceCancellation.bib
+ : @article{Madh94
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 505 of file InterferenceCancellation.bib
+ : @book{Huff91
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 519 of file InterferenceCancellation.bib
+ : @book{Verd98
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 599 of file InterferenceCancellation.bib
+ : @article{Wang98
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 833 of file InterferenceCancellation.bib
+ : @article{Wang03d
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no volume in Vara88
+Warning--empty year in Zhang02
+Warning--empty year in Muller
+(There were 6 error messages)

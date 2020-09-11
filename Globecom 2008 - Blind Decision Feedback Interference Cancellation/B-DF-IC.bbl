@@ -1,0 +1,95 @@
+\begin{thebibliography}{10}
+
+\bibitem{Yoon93}
+Y.~Yoon\texttt{,}~R. Kohno and H.~Imai.
+\newblock A spread-spectrum multi-access system with co-channel interfernce
+  cancellation over multipath fading channels.
+\newblock {\em IEEE Journal on Selected Areas in Communications},
+  11(7):1067--1075, September 1993.
+
+\bibitem{Patel94}
+Pulin Patel and Jack Holtzman.
+\newblock Analysis of a simple successive interference cancellation scheme in a
+  ds/cdma system.
+\newblock {\em IEEE Journal On Selected Areas in Communications},
+  12(5):796--807, June 1994.
+
+\bibitem{Wijk95}
+F.~Wijk\texttt{,}~G. Janssen and R.~Prasad.
+\newblock Groupwise successive inteference cancellation in ds/cdma system.
+\newblock In {\em Proc. 6th IEEE int. Symp. on Personal, Indoor and Mobile
+  Radio Communications}, volume~2, pages 742--746, September 1995.
+
+\bibitem{Divsalar96}
+D.~Divsalar\texttt{,} M.~K. Simon and D.~Raphaeli.
+\newblock A new approach to improved parallel interference cancellation.
+\newblock In {\em Globecom}, pages 1452--1457, 1996.
+
+\bibitem{Kim98}
+M.~Kaveh and A.~Barbabell.
+\newblock Adaptive weighted parallel interference cancellation for cdma
+  systems.
+\newblock {\em Electronic Letters}, pages 2085--2086, October 1998.
+
+\bibitem{Bugallo01}
+M\'{o}nic F. Bugallo\texttt{,}~Joaqu\'{i}n M\'{i}guez and Luis Castedo.
+\newblock A maximum likelihood approach to blind multiuser interference
+  cancellation.
+\newblock {\em IEEE Transaction On Signal Processing}, 49(6):1228--1239, June
+  2001.
+
+\bibitem{Kave85}
+M.~Kaveh and J.~Salz.
+\newblock Cross-polarization cancellation and equalization in digital
+  transmission over dually polarized multipath fading channels.
+\newblock {\em AT\&T Technical Journal}, 64:2211--2245, December 1985.
+
+\bibitem{Duel93}
+A.~Duel-Hallen.
+\newblock Decorrelating decision-feedback detector for synchronous cdma.
+\newblock {\em IEEE Trans. On Communications}, 41:285--290, February 1993.
+
+\bibitem{Duel95}
+A.~Duel-Hallen.
+\newblock Decorrelating decision-feedback detector for asynchronous
+  code-division multiple-access channels.
+\newblock {\em IEEE Trans. On Communications}, 43:421--434, February 1995.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. on Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Honi95}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. on Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. on Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Wang98}
+Xiaodong Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. on Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Wang99}
+X~Wang and A.~Host-Madsen.
+\newblock Group-blind multiuser detection for uplink cdma.
+\newblock {\em IEEE Trans. on Select Area Communications}, 17:1971--1984,
+  November 1999.
+
+\bibitem{Zhang02}
+X.~Zhang and W.~Wei.
+\newblock Blind adaptive multiuser detection based on kalman filtering.
+\newblock {\em IEEE Transactions on Signal Processing}.
+
+\bibitem{Verd98}
+Sergio Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\end{thebibliography}

@@ -1,0 +1,32 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: OnBMUD.aux
+The style file: unsrt.bst
+Database file #1: FastBDD.bib
+I was expecting a `,' or a `}'---line 880 of file FastBDD.bib
+ :     
+ :     year    ="2002",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: InterferenceCancellation.bib
+Repeated entry---line 528 of file InterferenceCancellation.bib
+ : @book{Verd98
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 535 of file InterferenceCancellation.bib
+ : @article{Honi95
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 608 of file InterferenceCancellation.bib
+ : @article{Wang98
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 639 of file InterferenceCancellation.bib
+ : @article{Torl97
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 723 of file InterferenceCancellation.bib
+ : @article{Elda02
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--empty year in Zhang02
+Warning--empty year in Muller
+(There were 6 error messages)

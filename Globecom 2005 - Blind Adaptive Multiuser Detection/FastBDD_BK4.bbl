@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{Verd98}
+Sergio Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. On Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Honi95}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. On Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Poor97}
+H.~V. Poor and X.~Wang.
+\newblock Code-aided interference suppression for ds/cdma communications--part
+  ii: Parallel blind adaptive implementations.
+\newblock {\em IEEE Trans. On Communications}, 45:1112--1122, September 1997.
+
+\bibitem{Wang98}
+Xiaodong Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subsequence approach.
+\newblock {\em IEEE Trans. On Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. On Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Liu96}
+H.~Liu and G.~Xu.
+\newblock A subspace method for signature waveform estimation in sychronouse
+  cdma systems.
+\newblock {\em IEEE Trans. On Communications}, 44:1346--1354, October 1996.
+
+\bibitem{Poor98}
+H.~V. Poor and S.~Verdu.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. On Information Theory}, 44:677--690, March 1998.
+
+\bibitem{Wang99}
+X~Wang and A.~Host-Madsen.
+\newblock Group-blind multiuser detection for uplink cdma.
+\newblock {\em IEEE Trans. On Select Area Communications}, 17:1971--1984,
+  November 1999.
+
+\bibitem{Yang95}
+B.~Yang.
+\newblock Projection approximation subspace tracking.
+\newblock {\em IEEE Trans. On Signal Processing}, 43:95--107, January 1995.
+
+\end{thebibliography}

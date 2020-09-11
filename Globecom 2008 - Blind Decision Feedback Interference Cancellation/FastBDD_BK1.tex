@@ -1,0 +1,530 @@
+
+\documentclass[a4paper,11pt,fleqn]{article}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{graphicx}
+
+\setlength{\parindent}{3em} \setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in} % sets 1in left and right margins
+\setlength{\topmargin}{0.0in} % change to 0.2in for regular latex
+%\setlength{\headheight}{0in}
+%\setlength{\footheight}{0.5in}
+\setlength{\footskip}{0.5in}
+\setlength{\textheight}{9.0in} %sets 1in top and bottom margins
+%\renewcommand{\baselinestretch}{1} %set to 1.5 for double spacing.
+
+
+\newtheorem{Prop}{Proposition}
+\newtheorem{lemma}{Lemma}
+
+\newcommand{\br}{{\mathbf r}}
+\newcommand{\bA}{{\mathbf A}}
+\newcommand{\ba}{{\bf a}}
+\newcommand{\bb}{{\bf b}}
+\newcommand{\bc}{{\bf c}}
+\newcommand{\bC}{{\bf C}}
+\newcommand{\bG}{{\bf G}}
+\newcommand{\bd}{{\bf d}}
+\newcommand{\be}{{\bf e}}
+\newcommand{\bs}{{\bf s}}
+\newcommand{\bn}{{\bf n}}
+\newcommand{\bu}{{\bf u}}
+\newcommand{\bv}{{\bf v}}
+\newcommand{\bw}{{\bf w}}
+\newcommand{\bx}{{\bf x}}
+\newcommand{\bbf}{{\bf f}}
+\newcommand{\bF}{{\bf F}}
+\newcommand{\bL}{{\bf L}}
+\newcommand{\bM}{{\bf M}}
+\newcommand{\bN}{{\bf N}}
+\newcommand{\bS}{{\bf S}}
+\newcommand{\bT}{{\bf T}}
+\newcommand{\bD}{{\bf D}}
+\newcommand{\bX}{{\bf X}}
+\newcommand{\bP}{{\bf P}}
+\newcommand{\bI}{{\bf I}}
+\newcommand{\bR}{{\bf R}}
+\newcommand{\bU}{{\bf U}}
+\newcommand{\bV}{{\bf V}}
+\newcommand{\bW}{{\bf W}}
+\newcommand{\bJ}{{\bf J}}
+\newcommand{\bB}{{\bf B}}
+\newcommand{\bzero}{{\bf 0}}
+\newcommand{\bgamma}{{\mbox {\boldmath $\gamma$}}}
+\newcommand{\btheta}{{\mbox {\boldmath $\theta$}}}
+\newcommand{\bLambda}{{\mbox {\boldmath $\Lambda$}}}
+\newcommand{\bPsi}{{\mbox {\boldmath $\Psi$}}}
+\newcommand{\bPhi}{{\mbox {\boldmath $\Phi$}}}
+\newcommand{\bcS}{{\mbox {\boldmath ${\cal S}$}}}
+\newcommand{\bcH}{{\mbox {\boldmath ${\cal H}$}}}
+\newcommand{\bcI}{{\mbox {\boldmath ${\cal I}$}}}
+\newcommand{\bcR}{{\mbox {\boldmath ${\cal R}$}}}
+\newcommand{\bcB}{{\mbox {\boldmath ${\cal B}$}}}
+
+\title{Fast Multiuser Blind Decorrelating Detection Algorithms}
+\date{}
+\author{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Multiuser detection is one of the key techniques for combating
+multiple access interference (MAI) in CDMA systems.
+\end{abstract}
+
+\section{Introduction}
+
+Direct-sequence code division multiple access (DS/CDMA) techniques
+have attracted increasing attention for efficient use of available
+bandwidth, resistance to interference and flexibility to variable
+traffic patterns. Multiuser detection strategy is a method to
+minimize the effect of MAI and solve the near-far problem in CMDA
+systems. It has been extensively investigated over the past
+several years~\cite{Verd98}, since MAI is the dominant impairment
+for CDMA systems and exists even in perfect power-controlled CDMA
+systems. Most early work on multiuser detection assumed that the
+receiver knew the spreading codes or had some knowledge of all
+users, then exploited this knowledge to combat MAI. For example,
+the classic decorrelating detector could achieve the optimum
+near-far resistance and completely eliminate MAI from other users
+with the expense of enhancement of background noise. However, in
+many practical cases, especially in a dynamic environment, e.g. in
+the downlink of the CDMA system, it is very difficult for a mobile
+user to obtain accurate information on other active users in the
+same channel. On the other hand, the frequent use of training
+sequence is certainly a waste of channel bandwidth. So multiuser
+blind detection has been proposed. Recent research has been
+devoted to the blind multiuser receivers and subspace-based
+signature waveform estimation schemes to achieve better
+performance and higher capacity~\cite{Honi95, Poor97, Wang98,
+Torl97, Liu96}. The Minimum output energy (MOE) method and
+subspace method were presented for multiuser blind detection with
+the knowledge of only the desired users' spreading code and
+possible timing.
+
+The large gaps in performance and complexity between the
+conventional single-user matched filter and optimum multiuser
+detector encourage the search for other multiuser detectors that
+exhibit good performance/complexity tradeoffs. The classic
+decorrelating detector~\cite{Lupa89} not only is a simple and
+natural strategy but it is optimal according to three different
+criteria: least squares, near-far resistance~\cite{Verd86} and
+maximum-likelihood when the received amplitudes are
+unknown~\cite{Lupa89}. Though it does not require knowledge of the
+received amplitudes, it does require some information about other
+active users' signature waveforms. This makes it difficult be put
+in practical applications.
+
+Multiuser blind detection using subspace techniques was first
+developed in depth by Wang and Poor~\cite{Wang98, Poor98}. Such
+techniques were appropriate for the downlink environment where
+only the desired users' code is available. More recently, these
+subspace techniques were extended by Wang and
+Host-Madsen~\cite{Wang99}, named group multiuser blind detectors,
+to uplink environments where the base station knows the codes of
+in-cell users, but not those of users outside the cell. In the
+subspace-based blind detection approach~\cite{Wang98}, the linear
+detectors are constructed in the closed form once the signal
+subspace components are computed and offer lower computational
+complexity and better performance than the blind MOE detector. For
+the subspace-based blind adaptive detector, the project
+approximation subspace tracking deflation (PASTd)
+algorithm~\cite{Yang95} is used to estimate the signal subspace.
+
+It is shown in~\cite{Honi95} that the MOE receiver is equivalent
+to the linear minimum mean square error (MMSE) detector, which is
+near-far resistant and has much less complexity compared the
+optimal multiuser detection. The major limitation of MOE schemes
+to multiuser blind detection is that there is a satuaration effect
+in the steady state, which causes a significant performance gap
+between the converged blind MOE and the true MMSE
+detector~\cite{Honi95}.
+
+
+\section{Data Model and Problem Description}
+
+The basic CDMA $K$-user channel model, consisting of the sum of
+antipodally modulated synchronous signature waveforms embedded in
+additive white Gaussian noise (AWGN), is considered here. The
+received base-band signal during one symbol interval in such a
+channel can be modeled as:
+
+\begin{equation}
+\matrix{r(t)&=&\sum\limits_{k=1}^{K}A_k b_k^{(n)} s_k (t)+ n(t)}
+\end{equation}
+
+\noindent where $t\in [(n-1)T,\ nT]$, $T$ is the symbol interval.
+$n(t)$ represents the Gaussian channel noise, $K$ is the number of
+users and $A_k$, $b_k^{(n)}$ denote the received amplitude and
+data bit of the $k$th user, respectively. It is assumed that
+$b_k^{(n)}\in\{-1,\ +1\}$ is a collection of independent
+equiprobable $\pm1$ random variables transmitted by the $k$th user
+during $[(n-1)T,\ nT]$ and $s_k(t)$ denotes the normalized signal
+waveform of the $k$th user on the interval $[(n-1)T,\ nT]$, i.e.,
+$\|s_k(t)\|=1$.
+
+The received signal $r(t)$ is passed through a chip-matched filter
+followed by a chip-rate sampler. As a result, $r(t)$, $t\in
+[(n-1)T,\ nT]$, is converted into a $L\times 1$ column vector
+$\br$ of the samples of the chip-matched filter outputs within a
+symbol interval $[(n-1)T,\ nT]$ as
+
+\begin{equation}
+\begin{array}{rcl}
+\br &=& \left[\matrix{r_n^1 & r_n^2 & \ldots & r_n^L}\right]^T\\
+ &=& \sum\limits_{k=1}^{K} A_k b_k^{(n)} \bs_k + \bn \\
+ &=& \bS \bA \bb + \bn
+\end{array} \label{r}
+\end{equation}
+
+\noindent where $\bA$ is the received amplitude diagonal matrix,
+$\bS = [\bs_1\ \bs_2\ \ldots\ \bs_K]$ is the $L \times K$
+signature matrix with the $k$th column $\bs_k$ being the signature
+vector of the $k$th user, $\bb = [b_1^{(n)}\ b_2^{(n)}\ \ldots\
+b_K^{(n)}]^T = [b_1^{(n)}\ \tilde{\bb}^T]^T$ is the information
+vector sent by all the $K$ users at time $t=n$ and $b_1^{(n)}$ is
+the bit sent by the first user at time $t=n$, and $\bn$ is an
+$L$-dimensional Gaussian vector with independent
+$\sigma^2$-variance components. We maintain the restriction that
+$L \geq K$.
+
+Most of the linear multiuser detectors for demodulating the $k$th
+user's data bit in (\ref{r}) is in the form of a correlator
+followed by a hard limiter, which could be expressed as
+
+\begin{equation}
+\begin{array}{rcl}
+\hat{b}_k^{(n)} &=& \mbox{sign}\{\bw_k^T\br\}
+\end{array} \label{linear}
+\end{equation}
+
+\noindent where $\bw_k \in \mathbb{R}^{L\times 1}$ is the linear
+representation of multiuser detector.
+
+Linear multiuser detectors can be implemented in a decentralized
+fashion where only the user or users of interest need be
+demodulated.
+
+
+
+\section{New Data Model with Semi-Blind Signature Matrix}
+
+Most of the multiuser detection schemes assume the knowledge of
+the spreading codes and/or channel parameters of all the users
+that contribute to the received signal. These receivers then
+exploit this knowledge to combat MAI. A second form of detectors,
+know as the blind detectors, operate without knowledge of the
+channel input and the information of other users. Usually, many
+practical systems lie in between these two extremes. The first
+form of detectors are too optimistic as we can not expect to know
+the signature waveforms of all the users, while the latter
+under-utilizes the our knowledge of the system. In this section,
+we develop two one-shot multiuser semi-blind decorrelating
+detectors that are expected to bridge the performance gap between
+the conventional detectors and blind ones.
+
+
+Without loss of the generality, assume only the bits $b_1^{(n)}$
+sent by the first user is considered in the following description.
+And a new $L\times M$ semi-blind signature matrix $\bcS$ could be
+defined as
+
+\begin{equation}
+\begin{array}{rcl}
+\bcS&=&[\matrix{\bar{\bs}_1&\bar{\bs}_2&\bar{\bs}_3&\ldots&\bar{\bs}_M}]\\
+ &=&[\matrix{A_1\bs_1&\bar{\br}_{1}&\bar{\br}_{2}&\ldots&\bar{\br}_{M-1}}]\\
+ &=&\left[\matrix{\bS\bA\be_1&\bS\bA\bar{\bb}_1&\bS\bA\bar{\bb}_2&\ldots&\bS\bA\bar{\bb}_{M-1}}\right]+ \bar{\bN}\\
+ &=&\bS\bA\left[\matrix{\be_1&\bar{\bb}_1&\bar{\bb}_2&\ldots&\bar{\bb}_{M-1}}\right]+ \bar{\bN}\\
+ &=&\bS\bA\left[\matrix{\be_1 & \bD }\right]+ \bar{\bN}\\
+ &=&\bS\bA\bB + \bar{\bN}
+\end{array} \label{S}
+\end{equation}
+
+\noindent where $L\geq M\geq K$, $\bar{\br}_i$, $i=1,\ 2,\
+\ldots,\ M-1$, are the arbitrary received vectors which are
+linearly independent to each other and the $K\times 1$ vector
+$\bar{\bb}_m$ is the corresponding information vector which
+denotes the information sent by all $K$ users. $\bD = [\bar{\bd}\
+\tilde{\bD}^T]^T$, The $(K-1)\times 1 $ vector $\bar{\bd}$ is the
+information vector consist of the known bits sent by the current
+user previously. $\mbox{rank}\{\tilde{\bD}\}=K-1$,
+$\bar{\bN}=[\mathbf{0}\ \tilde{\bN}]$ and
+
+\begin{equation}
+\begin{array}{rcl}
+ \bB&=&\left[\matrix{\be_1 & \bD }\right]\\
+ &=&\left[\matrix{\be_1 & \matrix{ \bar{\bd}^T\cr\tilde{\bD}} }\right]\\
+ &=&\left[\matrix{\bc^{T} \cr \matrix{\mathbf{0}& \tilde{\bD}}
+ }\right]\\
+ &=&\left[\matrix{1& \bd^{T} \cr \mathbf{0}& \tilde{\bD} }\right]
+
+\end{array}
+\end{equation}
+
+\noindent and $\mbox{rank}\{\bB\}=K$.
+
+As in equation (\ref{r}) and (\ref{S}), the relationship between
+the received signal vector $\br$ and the new blind signature
+matrix $\bcS$ can be expressed as
+
+\begin{equation}
+\begin{array}{rcl}
+\br&=&\bS\bA\bb + \bn\\
+ &=&\bS\bA\bB\bB^{+}\bb + \bn\\
+ &=&(\bcS-\bar{\bN})\bB^{+}\bb+ \bn\\
+ &=&\bcS\bB^{+}\bb -\bar{\bN}\bB^{+}\bb + \bn\\
+ &=&\bcS\bd + \tilde{\bn} \label{rn}
+\end{array}
+\end{equation}
+
+\noindent where $\bB^{+} = \bB^T(\bB\bB^T)^{-1} $ is Moor-Penrose
+general inverse of $\bB$ and $\bd$ denotes the new $K \times 1$
+detection vector and is defined as
+
+\begin{equation}
+\begin{array}{rcl}
+\bd&=&\left[\matrix{\be_1&\bD}\right]^{+}\bb\\
+ &=&\left[\matrix{1&\bar{\bd}^T\cr\mathbf{0}&\tilde{\bD}}\right]^{+}\left[\matrix{b_1^{(n)}\cr\tilde{\bb}}\right]
+\end{array} \label{DetectorVector}
+\end{equation}
+
+with covariance matrix $\bR_{\bd}$ given by
+
+\begin{equation}
+\begin{array}{rcl}
+\bR_{\bd}&=&E\{\bd\bd^{H}\}\\
+&=&E\{(\bB^{+}\bb)(\bB^{+}\bb)^{H}\}\\
+&=&\bB^{+}\bB^{+H}\\
+&=&\bR_{\bB}^{+}
+\end{array}
+\end{equation}
+
+
+\noindent and $\tilde{\bn}$ is the new noise vector and defined as
+
+\begin{equation}
+\begin{array}{rcl}
+\tilde{\bn}&=&\bn-\bar{\bN}\bB^{+}\bb
+\end{array} \label{new_noise}
+\end{equation}
+
+\noindent with covariance matrix $\bR_{\tilde{\bn}}$ defined by
+
+\begin{equation}
+\begin{array}{rcl}
+\bR_{\tilde{\bn}}&=&E\{(\bn-\bar{\bN}\bB^{+}\bb)(\bn-\bar{\bN}\bB^{+}\bb)^H\}\\
+&=& \sigma^{2}\bI+\bar{\bN}\bB^{+}\bB^{+H}\bar{\bN}^{H}
+\end{array}
+\end{equation}
+
+Furthermore, the following result could be easily proved.
+
+\begin{lemma}
+The inverse of $\bB$ is
+\begin{equation}
+\begin{array}{rcl}
+\bB^{+}&=&\left[\matrix{\be_1&\matrix{-\bar{\bd}^T\tilde{\bD}^+\cr\tilde{\bD}^+}}\right]
+\end{array}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+
+Based on the definition of $\bB$,
+
+\begin{equation}
+\begin{array}{rcl}
+\bB&=&\left[\be_1\ \matrix{\bar{\bd}^T\cr\tilde{\bD}}\right]
+\end{array}
+\end{equation}
+
+\noindent so that,
+
+\begin{equation}
+\left[\be_1\ \matrix{\bar{\bd}^T\cr\tilde{\bD}}\right]\left[\be_1\
+\matrix{-\bar{\bd}^T\tilde{\bD}^+\cr\tilde{\bD}^+}\right]
+=\left[\matrix{1&\bar{\bd}^T\cr\mathbf{0}&\tilde{\bD}}\right]\left[\matrix{1&-\bar{\bd}^T\tilde{\bD}^+\cr\mathbf{0}&\tilde{\bD}^+}\right]
+=\bI
+\end{equation}
+\end{proof}
+
+So, with the above lemma, the detection vector $\bd$ can be
+re-written as
+
+\begin{equation}
+\begin{array}{rcl}
+\bd&=&\left[\matrix{d^1\cr\tilde{\bd}}\right]\\
+ &=&\left[\matrix{\be_1&\matrix{\bar{\bd}^T\cr\tilde{\bD}}}\right]^+\left[\matrix{ b_1^{(n)} \cr \tilde{\bb} }\right]\\
+ &=&\left[\matrix{\be_1&\matrix{-\bar{\bd}^T\tilde{\bD}^+\cr\tilde{\bD}^+}}\right]\left[\matrix{b_1^{(n)}\cr\tilde{\bb}}\right]\\
+ &=&\left[\matrix{b_1^{(n)}-\bar{\bd}^T\tilde{\bD}^+\tilde{\bb}\cr\tilde{\bD}^+\tilde{\bb}}\right]
+\end{array}
+\end{equation}
+
+\noindent where $d^1$ is the first element of the detection vector
+$\bd$ as
+
+\begin{equation}
+\matrix{d^{1}$=$b_1^{(n)}-\bar{\bd}^T\tilde{\bD}^+\tilde{\bb}}
+\end{equation}
+
+\noindent and $\tilde{\bd}$ is the corresponding complement vector
+as
+
+\begin{equation}
+\matrix{\tilde{\bd}$=$\tilde{\bD}^+\tilde{\bb}}
+\end{equation}
+
+
+Now, the following result could be very easily researched.
+
+\begin{lemma}
+The bit $b_1^{(n)}$ sent by the first user at time $t=n$ can be
+got with the following equation.
+\begin{equation}
+\begin{array}{rcl}
+b_1^{(n)} &=&d_{n}^{1}+\bar{\bd}^T\tilde{\bd}\\
+ &=& [\matrix{1&\bar{\bd}^T}]\bd\\
+ &=& \bc^T\bd
+\end{array}
+\end{equation} \label{bn_estimation}
+\end{lemma}
+
+By now, as we may see, after the definition of the new blind
+signature matrix $\bcS$ in equation (\ref{S}), the form of the
+classic multiuser detection model is still kept as in equation
+(\ref{rn}). But the different is that, the information bit vector
+$\bb$ is replaced by the detection vector $\bd$ as in equation
+(\ref{DetectorVector}) and the original AWGN vector $\bn$ is
+replace by the new noise vector $\tilde{\bn}$ as in equation
+(\ref{new_noise}). Fortunately, on the other hand, with lemma
+\ref{bn_estimation}, it still is possible and easy for us to
+calculate the bit vector $\bb$ with the detection vector $\bd$ and
+the previously detected bits vector $\bc$. So, the final question
+is how to estimate the detection vector $\bd$ as efficiently as
+possible.
+
+\section{Minimum Variance Unbiased Estimation}
+We know that when the data observed can be modelled as (\ref{rn}),
+$\bcS$ is a known determined observation matrix and $\tilde{\bn}$
+is white gaussian noise with PDF ${\cal N}(0, \sigma^{2}\bI)$,
+then the minimum variance unbiased (MVU) estimation can be written
+by
+\begin{equation}
+\begin{array}{rcl}
+\hat{\bd} &=& (\bcS^T\bcS)^{-1}\bcS^T\br
+\end{array}.\label{MVU0}
+\end{equation}
+
+\noindent with the covariance matrix of $\hat{\bd}$ is
+\begin{equation}
+\begin{array}{rcl}
+\bR_{\bd} &=& \sigma^{2}(\bcS^T\bcS)^{-1}
+\end{array}.
+\end{equation}
+
+For the above assumptions, the MVU estimation (\ref{MVU0}) is
+efficient in that it attains the CRLB. However, when the noise
+$\tilde{\bn}$ is not white with PDF ${\cal N}(0,
+\bR_{\tilde{\bn}})$, the MVU estimation of $\bd$ is given by
+
+\begin{equation}
+\begin{array}{rcl}
+\hat{\bd}
+&=&(\bcS^T\bR_{\tilde{\bn}}^{-1}\bcS)^{-1}\bcS^T\bR_{\tilde{\bn}}^{-1}\br
+\end{array}.
+\end{equation}
+
+\section{ Best Linear Unbiased Estimation}
+We begin by assuming the following linear structure
+$\hat{\bd}_{BLU}=\bG\br$ for this so-called best linear unbiased
+estimator (BLUE). Matrix $\bG$ is designed such that: (1) $\bcS$
+must be deterministic, and (2) $\tilde{\bn}$ must be zero mean
+with positive definite known covariance matrix
+$\bR_{\tilde{\bn}}$. (3) $\hat{\bd}_{BLU}$ is an unbiased
+estimator of $\bd$, and (4) the error variance for each of the n
+parameters is minimized. In this way, $\hat{\bd}_{BLU}$ will be
+unbiased and efficient (within the class of linear estimators) by
+design. The resulting best linear unbiased estimator is:
+
+\begin{equation}
+\matrix{ \hat{\bd}_{BLU} $=$
+(\bcS^H\bR_{\tilde{\bn}}^{-1}\bcS)^{-1}\bcS^H\bR_{\tilde{\bn}}^{-1}\br
+}
+\end{equation}
+
+\section{ Least-Squares Estimation }
+At first, we assume the measurements of $\bcS$ is assumed to be
+free of error. Hence, all errors are confined to the received
+vector $\br$. Then the following classic LS estimation is
+proposed.
+
+\begin{lemma}~\cite{Golu96} Suppose $\bU^T\bcS\bV=\mathbf{\Sigma}$ is the SVD of $\bcS\in\mathbb{R}^{L\times
+ K}$ with $r=rank(\bcS)$. And if $\bU=[\matrix{\bu_1&\bu_2&\ldots&\bu_L}]$,
+ $\bV=[\matrix{\bv_1&\bv_2&\ldots&\bv_K}]$, $\mathbf{\Sigma}=diag\{[\matrix{\sigma_1&\ldots\sigma_r&0&\ldots&0}]\}$ and $\br\in \mathbb{R}^{L\times 1}$, then
+
+ \begin{equation}
+ \matrix{\bd_{LS}&=&\sum\limits_{i=1}^{r}\frac{\bu_i^T\br}{\sigma_i}\bv_i&=&\bcS^+\br}
+ \end{equation}
+
+\noindent minimizes $\|\bcS\bd-\br\|_2$ and has the smallest
+2-norm of all minimizers. Moreover
+ \begin{equation}
+ \matrix{\varepsilon_{LS}^2 &=& \min\limits_{\bx\in\mathbb{R}}\|\bcS\bx-\br\|_2^2 &=& \sum\limits_{i=r+1}^{L}(\bu_i^T\br)^2}
+ \end{equation}
+\label{VectorLS}
+\end{lemma}
+
+\begin{proof}
+For any $\bx\in\mathbb{R}^{K\times 1}$, we have
+
+\begin{equation}
+\begin{array}{rcl}
+\|\bcS\bx-\br\|_2^2&=&\|(\bU^T\bcS\bV)(\bV^T\bx)-\bU^T\br\|_2^2\\
+        &=& \| \mathbf{\Sigma} \mathbf{\alpha} - \bU^T\br \|_2^2\\
+        &=& \sum\limits_{i=1}^{r}(\sigma_i\alpha_i-\bu_i^T\br) + \sum\limits_{i=r+1}^{m}(\bu_i^T\br)^2
+\end{array}
+\end{equation}
+
+\noindent where $\mathbf{\alpha} = \bV^T\bx$. Clearly, if $\bx$
+solves the LS problem, then $\alpha_i = \bu_i^T\br/\sigma_i$ for
+$i=1,\ 2,\ \ldots,\ r$. If we set
+$\alpha_{r+1}=\alpha_{r+2}=\ldots=\alpha_{n}$, then the resulting
+$\bx=\bd_{LS}$ clearly has minimal 2-norm.
+\end{proof}
+
+So, the least squares estimation of $\bd$ is
+
+\begin{equation}
+\begin{array}{rcl}
+\bd_{LS} &=& \bcS^+\br\\
+ &=&\bd + \bcS^+\tilde{\bn}
+\end{array} \label{LS}
+\end{equation}
+
+\noindent where the $K\times L$ matrix $\bcS^+$ is the
+Moore-Penrose generalized inverse of $\bcS$.
+
+\section{Minimum Mean-Squared Estimation}
+Given measurements $\br$, the mean-sqaured estimator (MSE) of
+$\bd$, $\hat{\bd}_{MS} = f( \br )$, minimizes the mean-squared
+error $J_{MSE}=E\{||\bd-\hat{\bd}||_2^2\}$. The function $f(\br)$
+may be nonlinear or linear and its exact structure is determined
+by minimizing $J_{\bd}$. When $\bd$ and $\br$ are jointly
+Gaussian, the estimator that minimizes the mean-sqared error is
+(Bayesian Gauss-Markov Theorem)
+
+\begin{equation}
+\begin{array}{rcl}
+\hat{\bd}_{MS} &=&
+(\bR_{\bd}^{-1}+\bcS^{H}\bR_{\tilde{\bn}}^{-1}\bcS)^{-1}\bcS^{H}\bR_{\tilde{\bn}}^{-1}\br
+\end{array} \label{MSE}
+\end{equation}
+
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{FastBDD}
+
+\end{document}

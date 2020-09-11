@@ -1,0 +1,201 @@
+This is pdfTeX, Version 3.14159-14h-released-20010417 (Web2C 7.3.3.1) (format=pdflatex 2002.5.9)  24 OCT 2002 14:27
+**ofdm_papr
+(./ofdm_papr.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(./foils.cls
+Document Class: foils 1998/08/15 v2.1.3 FoilTeX Class File, Copyright IBM 1995,
+1997,1998
+(./fltfonts.def
+File: fltfonts.def 1998/08/15 v2.1.3 FoilTeX font definition file, Copyright IB
+M 1995,1997,1998
+\symflasy=\mathgroup4
+LaTeX Info: Redefining \em on input line 243.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/fcmr/m/n on input line 245.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/fcmm/m/it on input line 246.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/fcmsy/m/n on input line 247.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/fcmex/m/n on input line 248.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/fcmr/bx/n on input line 249.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/fcmm/b/it on input line 250.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/fcmsy/b/n on input line 251.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/fcmex/m/n on input line 252.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 253.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 254.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/fcmr/bx/n on input line 254.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/fcmr/bx/n on input line 254.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 255.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/fcmss/m/n on input line 255.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/fcmss/m/n on input line 255.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 256.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/fcmr/m/it on input line 256.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/fcmr/m/it on input line 256.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 257.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/fcmtt/m/n on input line 257.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/fcmtt/m/n on input line 257.
+) (./foil20.clo
+File: foil20.clo 1998/08/15 v2.1.3 FoilTeX file (size option), Copyright IBM 19
+95,1997,1998
+)
+\head@footskip=\dimen102
+\@foilheight=\dimen103
+\@foilwidth=\dimen104
+\abovetitleskip=\skip41
+\titleauthorskip=\skip42
+\authorauthorskip=\skip43
+\authordateskip=\skip44
+\dateabstractskip=\skip45
+\@tempfootbox=\box26
+\@tempfootht=\dimen105
+\bibindent=\dimen106
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\@captionwidth=\skip48
+\captionwidth=\skip49
+\abovefloatskip=\skip50
+\c@table=\count79
+\c@figure=\count80
+\foilheadskip=\skip51
+\c@Theorem=\count81
+\c@Lemma=\count82
+\c@Corollary=\count83
+\c@Proposition=\count84
+\c@Definition=\count85
+) (/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+(/usr/share/texmf/tex/latex/config/color.cfg)
+Package color Info: Driver file: pdftex.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2000/06/16 v0.03a graphics/color for pdftex
+\Gread@gobject=\count86
+))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+)
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/share/texmf/tex/latex/misc/geometry.sty
+Package: geometry 1999/10/07 v2.2 Page Geometry
+\geom@cnth=\count87
+\geom@cntv=\count88
+
+(/usr/share/texmf/tex/latex/config/geometry.cfg)) (./background.sty)
+(./pp4slide.sty) (./ofdm_papr.aux)
+\openout1 = `ofdm_papr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count89
+\scratchcounter=\count90
+\scratchtoks=\toks15
+\scratchdimen=\dimen109
+\scratchskip=\skip52
+\scratchmuskip=\muskip10
+\scratchbox=\box27
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen110
+\nextbox=\box28
+\nextdepth=\dimen111
+\everyline=\toks16
+\!!counta=\count91
+\!!countb=\count92
+\recursecounter=\count93
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPtoPDFconversion=\toks17
+)
+LaTeX Font Info:    Font shape `OT1/fcmss/m/it' in size <20.74> not available
+(Font)              Font shape `OT1/fcmr/m/it' tried instead on input line 51.
+ [1{/usr/share/texmf/dvips/config/pdftex.map}
+
+] [2] [3] [4] [5] [6] [7]
+[8] [9] [10] [11] <dist1024.pdf 1019.81pt, 674.52pt, image 66>
+File: dist1024.pdf Graphic file (type pdf)
+
+<use dist1024.pdf> [12 <./dist1024.pdf>] <dist64.pdf 1019.81pt, 674.52pt,
+image 73>
+File: dist64.pdf Graphic file (type pdf)
+ <use dist64.pdf> [13 <./dist64.pdf>] [14] [15]
+<slm.pdf 574.145pt, 281.05pt, image 87>
+File: slm.pdf Graphic file (type pdf)
+ <use slm.pdf>
+<dc.pdf 770.88pt, 578.16pt, image 88>
+File: dc.pdf Graphic file (type pdf)
+ <use dc.pdf> [16 <./slm.pdf> <./dc.pdf>]
+[17] [18] <slmdcdia.pdf 455.7025pt, 758.835pt, image 106>
+File: slmdcdia.pdf Graphic file (type pdf)
+ <use slmdcdia.pdf>
+[19 <./slmdcdia.pdf>]
+Missing character: There is no ^^92 in font cmr10!
+ [20] <balance.pdf 770.88pt, 578.16pt, image 117>
+File: balance.pdf Graphic file (type pdf)
+
+<use balance.pdf> [21 <./balance.pdf>] <slmdc.pdf 770.88pt, 578.16pt,
+image 124>
+File: slmdc.pdf Graphic file (type pdf)
+ <use slmdc.pdf> [22 <./slmdc.pdf>] [23] (./ofdm_papr.aux) ) 
+Here is how much of TeX's memory you used:
+ 1417 strings out of 50460
+ 19704 string characters out of 690586
+ 64211 words of memory out of 1500001
+ 4434 multiletter control sequences out of 10000+25000
+ 11081 words of font info for 42 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 25i,32n,21p,228b,554s stack positions out of 3000i,500n,3000p,50000b,5000s
+</usr/share/texmf/f
+onts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.
+pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/
+type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></u
+sr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmss10.pfb>
+Output written on ofdm_papr.pdf (23 pages, 326276 bytes).

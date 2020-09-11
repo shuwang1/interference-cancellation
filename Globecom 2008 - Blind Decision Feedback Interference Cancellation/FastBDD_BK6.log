@@ -1,0 +1,189 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2004.10.25)  29 NOV 2004 08:39
+entering extended mode
+**FastBDD_BK6.tex
+(FastBDD_BK6.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8a> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(C:\texmf\tex\latex\base\article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(C:\texmf\tex\latex\base\fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+) (C:\texmf\tex\latex\base\size11.clo
+File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(C:\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(C:\texmf\tex\latex\amscls\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks20
+)
+(C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 14.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 16.
+
+\c@Prop=\count87
+\c@lemma=\count88
+(FastBDD_BK6.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+ (C:\texmf\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
+
+(C:\texmf\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [1
+
+] (FastBDD_BK6.toc)
+\tf@toc=\write3
+
+
+Package Fancyhdr Warning: \headheight is too small (12.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] (FastBDD_BK6.lof)
+\tf@lof=\write4
+ [3] [4] [5] [6] [7]
+File: AsynchCDMA.eps Graphic file (type eps)
+ <AsynchCDMA.eps> [8] [9] [10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 539.
+
+
+(C:\texmf\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 539.
+File: CDMA_links.eps Graphic file (type eps)
+ <CDMA_links.eps> [11] [12] [13] [14]
+File: BMUD_structure1.eps Graphic file (type eps)
+
+<BMUD_structure1.eps>
+Overfull \hbox (22.62175pt too wide) in paragraph at lines 833--838
+[][]\OT1/cmr/m/n/10.95 Suppose $\OT1/cmr/bx/n/10.95 U[][]V \OT1/cmr/m/n/10.95 =
+ \OT1/cmr/bx/n/10.95 $ \OT1/cmr/m/n/10.95 is the SVD of $[] \OMS/cmsy/m/n/10.9
+5 2 \U/msb/m/n/10.95 R[]$ \OT1/cmr/m/n/10.95 with $\OML/cmm/m/it/10.95 r \OT1/c
+mr/m/n/10.95 = []([])$. And if $\OT1/cmr/bx/n/10.95 U \OT1/cmr/m/n/10.95 = [[] 
+[] ]$,
+ []
+
+[15] [16] [17] [18] [19] [20] [21]
+Overfull \hbox (10.31183pt too wide) in paragraph at lines 1404--1418
+[]\OT1/cmr/m/n/10.95 The con-cept of group-based multi-user de-tec-tion was ori
+g-i-nally in-tro-duced for de-sign-ing low-complexity
+ []
+
+File: CDMA_grouplinks.eps Graphic file (type eps)
+<CDMA_grouplinks.eps> [22]
+
+LaTeX Warning: Reference `B_asynch' on page 23 undefined on input line 1545.
+
+[23]
+Overfull \hbox (17.24542pt too wide) in paragraph at lines 1602--1613
+\OT1/cmr/m/n/10.95 pre-vi-ously re-ceived in-de-pen-dent vec-tors and the $\OML
+/cmm/m/it/10.95 K \OMS/cmsy/m/n/10.95  \OT1/cmr/m/n/10.95 1$ vec-tor $[] = [][
+] =
+ []
+
+[24] [25]
+File: BMUD_structure5.eps Graphic file (type eps)
+ <BMUD_structure5.eps> [26]
+File: DD_geometric.eps Graphic file (type eps)
+ <DD_geometric.eps> [27] [28] [29]
+(FastBDD_BK6.bbl
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ü in font cmr10!
+) [30] (FastBDD_BK6.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1154 strings out of 95898
+ 11577 string characters out of 1195287
+ 68322 words of memory out of 1058787
+ 4103 multiletter control sequences out of 35000
+ 17293 words of font info for 64 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 25i,24n,43p,215b,290s stack positions out of 1500i,500n,5000p,200000b,32768s
+
+Output written on FastBDD_BK6.dvi (30 pages, 105408 bytes).

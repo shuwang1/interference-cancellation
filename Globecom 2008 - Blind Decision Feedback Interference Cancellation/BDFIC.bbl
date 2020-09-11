@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+
+\bibitem{Verd98}
+S.~Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Wang02b}
+S.~Wang and J.~Caffery.
+\newblock On interference cancellation for synchronous cdma.
+\newblock In {\em International Symposium on Wireless Communications (ISWC)
+  2002}, September 2002.
+
+\bibitem{Kohno91}
+R.~Kohno.
+\newblock Pseudo-noise sequences and interference cancellation techniques for
+  spread spectrum systems-spread spectrum theory and techniques in japan.
+\newblock {\em IEICE Trans.}, E(74):1083--1092, May 1991.
+
+\bibitem{Vara88}
+M.~Varanasi and B.~Aazhang.
+\newblock Near-optimum demodulation for coherent communications in asynchronous
+  gaussian cdma channels.
+\newblock {\em Proc. 22nd Conf. on Information Sciences and Systems},
+  (129):15--26, March 1988.
+
+\bibitem{Kave85}
+M.~Kaveh and J.~Salz.
+\newblock Cross-polarization cancellation and equalization in digital
+  transmission over dually polarized multipath fading channels.
+\newblock {\em AT\&T Technical Journal}, 64:2211--2245, December 1985.
+
+\bibitem{Duel95}
+A.~Duel-Hallen.
+\newblock Decorrelating decision-feedback detector for asynchronous
+  code-division multiple-access channels.
+\newblock {\em IEEE Trans. On Communications}, 43:421--434, February 1995.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. on Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Madh98}
+U.~Madhow.
+\newblock Blind adaptive interference suppression for direct-sequence cdma.
+\newblock {\em Proceedings of the IEEE}, 86(10):2049--2069, October 1998.
+
+\bibitem{Wang98}
+X.~Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. on Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Zhang02}
+X.~Zhang and W.~Wei.
+\newblock Blind adaptive multiuser detection based on kalman filtering.
+\newblock {\em IEEE Transactions on Signal Processing}.
+
+\bibitem{Wang03d}
+S.~Wang\texttt{,} J.~Caffery\texttt{,} Jr. and H.~Shen.
+\newblock Semi-blind decorrelating detection for synchronous cdma.
+\newblock {\em IEEE Wireless Communications and Networking Conference (WCNC)
+  2003}, 4:379--384, March 2003.
+
+\bibitem{Wang05A}
+S.~Wang\texttt{,} S. G.~Kim\texttt{,} et~al.
+\newblock Semi-blind adaptive multiuser detection for asynchronous cdma.
+\newblock In {\em 2005 IEEE International Conference On Electro Information
+  Technology (eit2005)}, Lincoln, Nebraska, May 2005.
+
+\bibitem{Wang05B}
+S.~Wang\texttt{,} S. G.~Kim\texttt{,} et~al.
+\newblock Blind adaptive multiuser detection.
+\newblock In {\em IEEE GlobeCom 2005}, St. Louis, Missouri, November 2005.
+
+\bibitem{Huff91}
+S.~V. Huffel and J.~Vandewalle.
+\newblock {\em The total least squares problem: computational aspects and
+  analysis}, volume~9.
+\newblock Society for Industrial and Applied Mathematics, 1991.
+
+\bibitem{Haykin96}
+S.~Haykin.
+\newblock {\em Adaptive Filter Theory}.
+\newblock Prentice Hall, 3 edition, 1996.
+
+\bibitem{Muller}
+R.~R. Müller.
+\newblock Applications of large random matrices in communications engineering.
+\newblock {\em http://citeseer.ist.psu.edu/652499.html}.
+
+\end{thebibliography}

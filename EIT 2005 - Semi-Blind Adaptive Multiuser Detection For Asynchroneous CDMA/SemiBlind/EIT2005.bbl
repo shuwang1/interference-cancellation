@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{Verd86}
+Sergio Verdu.
+\newblock Near-far resistant receivers for ds/cdma communications.
+\newblock {\em U.S. Army Research Proposal}, 1986.
+
+\bibitem{Verd89}
+Sergio Verdu.
+\newblock {\em Recent progress in multuser detection, in Advances in
+  Communication and Signal Processing}.
+\newblock New York: Springer-Verlag, 1989.
+
+\bibitem{Lupa89}
+R.~Lupas and Sergio Verdu.
+\newblock Linear multiuser detectors for synchronous code-division
+  multiple-access channels.
+\newblock {\em IEEE Trans. on Information Theory}, 35:123--136, 1989.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. on Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Honi95}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. on Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Wang98}
+Xiaodong Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. on Information Theory}, 44:677--690, March 1998.
+
+\bibitem{Verd98}
+Sergio Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Wang99}
+Xiaodong Wang and A.~Host-Madsen.
+\newblock Group-blind multiuser detection for uplink cdma.
+\newblock {\em IEEE Trans. on Select Area Communications}, 17:1971--1984,
+  November 1999.
+
+\bibitem{Yang95}
+B.~Yang.
+\newblock Projection approximation subspace tracking.
+\newblock {\em IEEE Trans. on Signal Processing}, 43:95--107, January 1995.
+
+\bibitem{Liu96}
+H.~Liu and G.~Xu.
+\newblock A subspace method for signature waveform estimation in sychronouse
+  cdma systems.
+\newblock {\em IEEE Trans. on Communications}, 44:1346--1354, October 1996.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. on Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Wang03d}
+Shu Wang\texttt{,} James~Caffery\texttt{,} Jr. and Hanhong Shen.
+\newblock Semi-blind decorrelating detection for synchronous cdma.
+\newblock {\em IEEE Wireless Communications and Networking Conference (WCNC)
+  2003}, 4:379--384, March 2003.
+
+\bibitem{Wang03e}
+Shu Wang.
+\newblock Applications of signal subspace techniques for multiuser signal
+  detection and estimation in wireless systems.
+\newblock Univerdsity of Cincinnati, OH, USA, 2003.
+
+\bibitem{Key93}
+Steven~M. Key.
+\newblock {\em Fundamentals of Statistical Signal Processing: Estimation
+  Theory}.
+\newblock Prentice Hall PTR, 1993.
+
+\bibitem{Muller}
+Ralf~R. Müller.
+\newblock Applications of large random matrices in communications engineering.
+\newblock {\em http://citeseer.ist.psu.edu/652499.html}.
+
+\bibitem{Hanly90}
+Stephen~V. Hanly and David~N.C. Tse.
+\newblock Resource pooling and e ective bandwidth in cdma networks with
+  multiuser receivers and spatial diversity.
+\newblock {\em IEEE Transactions on Information Theory}, 47(4):1328--1351, May
+  2001.
+
+\bibitem{Golu96}
+Charles F. Van~Loan Gene H.~Golub.
+\newblock {\em Matrix Computations}.
+\newblock The Johns Hopkins University Press, 1996.
+
+\end{thebibliography}

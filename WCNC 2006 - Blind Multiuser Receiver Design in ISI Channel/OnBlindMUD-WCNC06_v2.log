@@ -1,0 +1,424 @@
+This is pdfeTeX, Version 3.141592-1.30.6-2.2 (MiKTeX 2.5) (preloaded format=latex 2006.10.17)  18 SEP 2007 14:44
+entering extended mode
+**C:/Documents*and*Settings/swang/My*Documents/MUD/WCNC06*-*Blind*Multiuser*Rec
+eiver*Design*in*ISI*Channel/OnBlindMUD-WCNC06_v2.tex
+
+("C:\Documents and Settings\swang\My Documents\MUD\WCNC06 - Blind Multiuser Rec
+eiver Design in ISI Channel\OnBlindMUD-WCNC06_v2.tex"
+LaTeX2e <2005/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(IEEEtran.cls
+Document Class: IEEEtran 2002/11/18 revision V1.6b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- The source comments contain changelog notes.
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 776.
+
+("C:\Program Files\MiKTeX 2.5\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\@IEEEnormalsizefontbaselineskip=\skip41
+
+-- This is a 10 point document.
+\normalsizebaselineskip=\skip42
+\normaljot=\skip43
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1095.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1095.
+
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\skip44
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen112
+\c@biography=\count90
+\@IEEEtranrubishbin=\box26
+) ("C:\Program Files\MiKTeX 2.5\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+("C:\Program Files\MiKTeX 2.5\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.5\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.5\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.5\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.5\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+("C:\Program Files\MiKTeX 2.5\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files\MiKTeX 2.5\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+("C:\Program Files\MiKTeX 2.5\tex\latex\preprint\balance.sty"
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen115
+)
+(OnBlindMUD-WCNC06_v2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+
+
+LaTeX Warning: Citation `Verd98' on page 1 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Andr05' on page 1 undefined on input line 120.
+
+
+LaTeX Warning: Citation `Honi95' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Torl97' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Wang98' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Zhang02' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Wang03d' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Wang05A' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Wang05B' on page 1 undefined on input line 123.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 179.
+
+("C:\Program Files\MiKTeX 2.5\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 179.
+
+("C:\Program Files\MiKTeX 2.5\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+Overfull \hbox (5.10663pt too wide) detected at line 232
+ []
+ []
+
+[2]
+Underfull \hbox (badness 2799) in paragraph at lines 297--305
+\OT1/ptm/m/n/10 nal model (8[]) is that the sig-nal sub-space bases
+ []
+
+[3]
+
+LaTeX Warning: Citation `Madh98' on page 4 undefined on input line 470.
+
+
+LaTeX Warning: Citation `Madh94' on page 4 undefined on input line 524.
+
+
+LaTeX Warning: Citation `Elda02' on page 4 undefined on input line 533.
+
+
+LaTeX Warning: Citation `Muller' on page 4 undefined on input line 562.
+
+[4]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 620.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 628.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 649.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 650.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 650.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 651.
+
+
+LaTeX Warning: File `BER_64_32_16_8A1.eps' not found on input line 659.
+
+
+! LaTeX Error: File `BER_64_32_16_8A1.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.659 ...phics[width=3.2in]{BER_64_32_16_8A1.eps}}
+                                                  
+? \
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+
+! LaTeX Error: Cannot determine size of graphic in BER_64_32_16_8A1.eps (no Bou
+ndingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.659 ...phics[width=3.2in]{BER_64_32_16_8A1.eps}}
+                                                  
+? 
+File: BER_64_32_16_8A1.eps Graphic file (type eps)
+<BER_64_32_16_8A1.eps>
+
+LaTeX Warning: File `BER_64_32_16_8B1.eps' not found on input line 665.
+
+
+! LaTeX Error: File `BER_64_32_16_8B1.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 ...phics[width=3.2in]{BER_64_32_16_8B1.eps}}
+                                                  
+? 
+
+! LaTeX Error: Cannot determine size of graphic in BER_64_32_16_8B1.eps (no Bou
+ndingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 ...phics[width=3.2in]{BER_64_32_16_8B1.eps}}
+                                                  
+? 
+File: BER_64_32_16_8B1.eps Graphic file (type eps)
+<BER_64_32_16_8B1.eps> [5]
+
+LaTeX Warning: File `NFR_64_4_2_1B.pdf' not found on input line 686.
+
+
+! LaTeX Error: File `NFR_64_4_2_1B.pdf' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.686 ...graphics[width=3.2in]{NFR_64_4_2_1B.pdf}}
+                                                  
+? 
+
+! LaTeX Error: Cannot determine size of graphic in NFR_64_4_2_1B.pdf (no Boundi
+ngBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.686 ...graphics[width=3.2in]{NFR_64_4_2_1B.pdf}}
+                                                  
+? 
+File: NFR_64_4_2_1B.pdf Graphic file (type eps)
+<NFR_64_4_2_1B.pdf>
+No file OnBlindMUD-WCNC06_v2.bbl.
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the US letter (8.5in X 11in) paper size.
+
+[6] (OnBlindMUD-WCNC06_v2.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1504 strings out of 95420
+ 20919 string characters out of 1187327
+ 74826 words of memory out of 1068286
+ 4605 multiletter control sequences out of 60000
+ 36592 words of font info for 97 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 26i,15n,22p,454b,295s stack positions out of 5000i,500n,10000p,200000b,32768s
+
+Output written on OnBlindMUD-WCNC06_v2.dvi (6 pages, 39960 bytes).

@@ -1,0 +1,100 @@
+\begin{thebibliography}{10}
+
+\bibitem{Yoon93A}
+Y.~Yoon\texttt{,}~R. Kohno and H.~Imai.
+\newblock Cascaded co-channel interference cancelling and diversity combining
+  for spreading-spectrum multi-access over multipath fading channels.
+\newblock {\em IEICE Trans. Communications}, E76-B(2):163--168, February 1993.
+
+\bibitem{Yoon93B}
+Y.~Yoon\texttt{,}~R. Kohno and H.~Imai.
+\newblock A spread-spectrum multi-access system with co-channel interfrence
+  cancellation over multipath fading channels.
+\newblock {\em IEEE Journal on Selected Areas in Communications},
+  11(7):1067--1075, September 1993.
+
+\bibitem{Verd98}
+S.~Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Wang02b}
+S.~Wang and J.~Caffery.
+\newblock On interference cancellation for synchronous cdma.
+\newblock In {\em International Symposium on Wireless Communications (ISWC)
+  2002}, September 2002.
+
+\bibitem{Kohno91}
+R.~Kohno.
+\newblock Pseudo-noise sequences and interference cancellation techniques for
+  spread spectrum systems-spread spectrum theory and techniques in japan.
+\newblock {\em IEICE Trans.}, E(74):1083--1092, May 1991.
+
+\bibitem{Vara88}
+M.~Varanasi and B.~Aazhang.
+\newblock Near-optimum demodulation for coherent communications in asynchronous
+  gaussian cdma channels.
+\newblock {\em Proc. 22nd Conf. on Information Sciences and Systems},
+  (129):15--26, March 1988.
+
+\bibitem{Kave85}
+M.~Kaveh and J.~Salz.
+\newblock Cross-polarization cancellation and equalization in digital
+  transmission over dually polarized multipath fading channels.
+\newblock {\em AT\&T Technical Journal}, 64:2211--2245, December 1985.
+
+\bibitem{Duel93}
+A.~Duel-Hallen.
+\newblock Decorrelating decision-feedback multiuser detector for synchronous
+  cdma.
+\newblock {\em IEEE Trans. Communication}, 41:285--290, February 1993.
+
+\bibitem{Duel95}
+A.~Duel-Hallen.
+\newblock Decorrelating decision-feedback detector for asynchronous
+  code-division multiple-access channels.
+\newblock {\em IEEE Trans. On Communications}, 43:421--434, February 1995.
+
+\bibitem{Wang03d}
+S.~Wang\texttt{,} J.~Caffery\texttt{,} Jr. and H.~Shen.
+\newblock Semi-blind decorrelating detection for synchronous cdma.
+\newblock {\em IEEE Wireless Communications and Networking Conference (WCNC)
+  2003}, 4:379--384, March 2003.
+
+\bibitem{Wang05B}
+S.~Wang et~al.
+\newblock Semi-blind multiuser.
+\newblock {\em EIT 2005}.
+
+\bibitem{Wang05A}
+S.~Wang et~al.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em submitted to IEEE GlobeCom 2005}, 2005.
+
+\bibitem{Wang05C}
+S.~Wang et~al.
+\newblock Blind time-domain decision feedback interference cancellation.
+\newblock {\em Submitted to}.
+
+\bibitem{Elda02}
+Y.~C. Eldar.
+\newblock On geometric properties of the decorrelator.
+\newblock {\em IEEE Communications Letters}, 6:16--18, January 2002.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. on Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Wang98}
+X.~Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. on Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Zhang02}
+X.~Zhang and W.~Wei.
+\newblock Blind adaptive multiuser detection based on kalman filtering.
+\newblock {\em IEEE Transactions on Signal Processing}.
+
+\end{thebibliography}

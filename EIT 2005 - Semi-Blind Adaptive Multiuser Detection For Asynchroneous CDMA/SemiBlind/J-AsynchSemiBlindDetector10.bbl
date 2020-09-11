@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+
+\bibitem{Verd98}
+Sergio Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Honi95}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. On Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Poor97}
+H.~V. Poor and X.~Wang.
+\newblock Code-aided interference suppression for ds/cdma communications--part
+  ii: Parallel blind adaptive implementations.
+\newblock {\em IEEE Trans. On Communications}, 45:1112--1122, September 1997.
+
+\bibitem{Wang98}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection: A subsequence approach.
+\newblock {\em IEEE Trans. On Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. On Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Liu96}
+H.~Liu and G.~Xu.
+\newblock A subspace method for signature waveform estimation in sychronouse
+  cdma systems.
+\newblock {\em IEEE Trans. On Communications}, 44:1346--1354, October 1996.
+
+\bibitem{Verd89}
+Sergio Verdu.
+\newblock {\em Recent progress in multuser detection, in Advances in
+  Communication and Signal Processing}.
+\newblock New York: Springer-Verlag, 1989.
+
+\bibitem{Lupa89}
+R.~Lupas and S.~Verdu.
+\newblock Linear multiuser detectors for synchronous code-division
+  multiple-access channels.
+\newblock {\em IEEE Trans. On Information Theory}, 35:123--136, 1989.
+
+\bibitem{Verd86}
+S.~Verdu.
+\newblock Near-far resistant receivers for ds/cdma communications.
+\newblock {\em U.S. Army Research Proposal}, 1986.
+
+\bibitem{Poor98}
+H.~V. Poor and S.~Verdu.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. On Information Theory}, 44:677--690, March 1998.
+
+\bibitem{Wang99}
+X~Wang and A.~Host-Madsen.
+\newblock Group-blind multiuser detection for uplink cdma.
+\newblock {\em IEEE Trans. On Select Area Communications}, 17:1971--1984,
+  November 1999.
+
+\bibitem{Yang95}
+B.~Yang.
+\newblock Projection approximation subspace tracking.
+\newblock {\em IEEE Trans. On Signal Processing}, 43:95--107, January 1995.
+
+\bibitem{Shni67}
+D.~Shnidman.
+\newblock A generalized nyquist criterion and an optimum linear receiver for a
+  pulse modulation system.
+\newblock {\em Bell System Technical Journal}, 46:2163--2177, November 1967.
+
+\bibitem{Tse99}
+D.~N.~C. Tse and S.~V. Hanly.
+\newblock Linear multiuser receivers: Effective interference, effective
+  bandwidth and user capacity.
+\newblock {\em IEEE Trans. On Information Theory}, 45:641--657, March 1999.
+
+\bibitem{Elda02}
+Yonina~C. Eldar.
+\newblock On geometric properties of the decorrelator.
+\newblock {\em IEEE Communications Letters}, 6:16--18, January 2002.
+
+\bibitem{Golu96}
+Charles F. Van~Loan Gene H.~Golub.
+\newblock {\em Matrix Computations}.
+\newblock The Johns Hopkins University Press, 1996.
+
+\bibitem{Huff91}
+Sabine~Van Huffel and Joos Vandewalle.
+\newblock {\em The total least squares problem: computational aspects and
+  analysis}.
+\newblock Society for Industrial and Applied Mathematics, 1991.
+
+\bibitem{Huff89}
+S.~Van Huffel.
+\newblock On the accuracy of total least squares and least squares techniques
+  in the presence of errors on all data.
+\newblock {\em Automatica}, 25:765--769, 1989.
+
+\end{thebibliography}

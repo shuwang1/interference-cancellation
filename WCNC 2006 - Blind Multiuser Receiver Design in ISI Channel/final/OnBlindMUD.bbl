@@ -1,0 +1,67 @@
+\begin{thebibliography}{10}
+
+\bibitem{Verd98}
+S.~Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Andr05}
+J.~G. Andrews.
+\newblock Interference cancellation for cellular systems: A contemporary
+  overview.
+\newblock {\em IEEE Wireless Communications}, pages 19--29, April 2005.
+
+\bibitem{Honi95}
+M.~Honig\texttt{,}~U. Madhow and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. on Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. on Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Wang98}
+X.~Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. on Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Zhang02}
+X.~Zhang and W.~Wei.
+\newblock Blind adaptive multiuser detection based on kalman filtering.
+\newblock {\em IEEE Transactions on Signal Processing}.
+
+\bibitem{Wang03d}
+S.~Wang\texttt{,} J.~Caffery\texttt{,} Jr. and H.~Shen.
+\newblock Semi-blind decorrelating detection for synchronous cdma.
+\newblock {\em IEEE Wireless Communications and Networking Conference (WCNC)
+  2003}, 4:379--384, March 2003.
+
+\bibitem{Wang05A}
+S.~Wang\texttt{,} et~al.
+\newblock Semi-blind adaptive multiuser detection for asynchronous cdma.
+\newblock In {\em 2005 IEEE International Conference On Electro Information
+  Technology (eit2005)}, Lincoln, Nebraska, May 2005.
+
+\bibitem{Wang05B}
+S.~Wang\texttt{,} et~al.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em to be appeared in IEEE GlobeCom 2005}, November 2005.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. on Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Elda02}
+Y.~C. Eldar.
+\newblock On geometric properties of the decorrelator.
+\newblock {\em IEEE Communications Letters}, 6:16--18, January 2002.
+
+\bibitem{Muller}
+R.~R. Müller.
+\newblock Applications of large random matrices in communications engineering.
+\newblock {\em http://citeseer.ist.psu.edu/652499.html}.
+
+\end{thebibliography}

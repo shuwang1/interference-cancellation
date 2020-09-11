@@ -1,0 +1,29 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: WCNC08BlindDFIC.aux
+The style file: unsrt.bst
+Database file #1: FastBDD.bib
+I was expecting a `,' or a `}'---line 880 of file FastBDD.bib
+ :     
+ :     year    ="2002",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: InterferenceCancellation.bib
+Repeated entry---line 218 of file InterferenceCancellation.bib
+ : @article{Madh94
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 541 of file InterferenceCancellation.bib
+ : @book{Huff91
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 555 of file InterferenceCancellation.bib
+ : @book{Verd98
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 859 of file InterferenceCancellation.bib
+ : @article{Wang03d
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Wang05C"
+Warning--empty year in Zhang02
+Warning--empty year in Muller
+(There were 5 error messages)

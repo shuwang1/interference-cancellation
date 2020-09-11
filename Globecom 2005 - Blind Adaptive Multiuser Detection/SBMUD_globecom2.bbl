@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+
+\bibitem{Verd98}
+Sergio Verdu.
+\newblock {\em Multiuser Detection}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{Madh94}
+U.~Madhow and M.~Honig.
+\newblock Mmse interference suppression for direct-squence spread spectrum
+  cdma.
+\newblock {\em IEEE Trans. on Communication}, 42:3178--3188, December 1994.
+
+\bibitem{Honi95}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. on Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. on Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Wang98}
+Xiaodong Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. on Information Theory}, 44:677--691, March 1998.
+
+\bibitem{Wang99}
+X~Wang and A.~Host-Madsen.
+\newblock Group-blind multiuser detection for uplink cdma.
+\newblock {\em IEEE Trans. on Select Area Communications}, 17:1971--1984,
+  November 1999.
+
+\bibitem{Zhang02}
+X.~Zhang and W.~Wei.
+\newblock Blind adaptive multiuser detection based on kalman filtering.
+\newblock {\em IEEE Transactions on Signal Processing}, 50:87--95, January
+  2002.
+
+\bibitem{Haykin96}
+Simon Haykin.
+\newblock {\em Adaptive Filter Theory}.
+\newblock Prentice Hall, 3 edition, 1996.
+
+\bibitem{Wang03d}
+Shu Wang\texttt{,} James~Caffery\texttt{,} Jr. and Hanhong Shen.
+\newblock Semi-blind decorrelating detection for synchronous cdma.
+\newblock {\em IEEE Wireless Communications and Networking Conference (WCNC)
+  2003}, 4:379--384, March 2003.
+
+\bibitem{Wang03e}
+Shu Wang.
+\newblock Applications of signal subspace techniques for multiuser signal
+  detection and estimation in wireless systems.
+\newblock University of Cincinnati, OH, USA, 2003.
+
+\bibitem{Huff91}
+Sabine~Van Huffel and Joos Vandewalle.
+\newblock {\em The total least squares problem: computational aspects and
+  analysis (Frontiers in Applied Mathematics, Vol 9)}.
+\newblock Society for Industrial and Applied Mathematics, 1991.
+
+\bibitem{Golu96}
+Gene~H. Golub and Charles F.~Van Loan.
+\newblock {\em Matrix Computations}.
+\newblock The Johns Hopkins University Press, 1996.
+
+\bibitem{Muller}
+Ralf~R. Müller.
+\newblock Applications of large random matrices in communications engineering.
+\newblock {\em http://citeseer.ist.psu.edu/652499.html}.
+
+\end{thebibliography}

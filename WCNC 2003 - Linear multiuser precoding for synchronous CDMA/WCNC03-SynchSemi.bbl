@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{Honi95}
+U.~Madhow M.~Honig and S.~Verdu.
+\newblock Blind adaptive multiuser detection.
+\newblock {\em IEEE Trans. On Information Theory}, 41:944--960, July 1995.
+
+\bibitem{Poor97}
+H.~V. Poor and X.~Wang.
+\newblock Code-aided interference suppression for ds/cdma communications--part
+  ii: Parallel blind adaptive implementations.
+\newblock {\em IEEE Trans. On Communications}, 45:1112--1122, September 1997.
+
+\bibitem{Wang98}
+X.~Wang and H.~V. Poor.
+\newblock Blind multiuser detection: A subspace approach.
+\newblock {\em IEEE Trans. On Information Theory}, 44:677--690, March 1998.
+
+\bibitem{Torl97}
+M.~Torlak and G.~Xu.
+\newblock Blind multiuser channel estimation in asynchronous cdma systems.
+\newblock {\em IEEE Trans. On Signal Processing}, 45:137--147, January 1997.
+
+\bibitem{Liu96}
+H.~Liu and G.~Xu.
+\newblock A subspace method for signature waveform estimation in sychronouse
+  cdma systems.
+\newblock {\em IEEE Trans. On Communications}, 44:1346--1354, October 1996.
+
+\bibitem{Shni67}
+D.~Shnidman.
+\newblock A generalized nyquist criterion and an optimum linear receiver for a
+  pulse modulation system.
+\newblock {\em Bell System Technical Journal}, 46:2163--2177, November 1967.
+
+\bibitem{Golu96}
+Charles F. Van~Loan Gene H.~Golub.
+\newblock {\em Matrix Computations}.
+\newblock The Johns Hopkins University Press, 1996.
+
+\bibitem{Huff91}
+Sabine~Van Huffel and Joos Vandewalle.
+\newblock {\em The total least squares problem: computational aspects and
+  analysis}.
+\newblock Society for Industrial and Applied Mathematics, 1991.
+
+\end{thebibliography}

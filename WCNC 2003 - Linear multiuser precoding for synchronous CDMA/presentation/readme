@@ -1,0 +1,8 @@
+This is the folder for the OFDM PAPR conference paper presentation
+
+1. All source files (include .tex and pdf figures are put in the source file sub-directory;
+2.This current directory includes the neccessary definition and style file for it.
+3. ofdm_papr.pdf is the white background and black words version files.
+4. ofdm_papr_color1.pdf is the blue background and white words files.
+
+backuped on Oct.24,2002.

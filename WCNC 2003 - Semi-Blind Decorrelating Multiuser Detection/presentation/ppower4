@@ -1,0 +1,3 @@
+#!/bin/sh
+basedir=/home/svenkatr/foiltex/
+CLASSPATH=$basedir/pp4.jar java de.tu_darmstadt.sp.pp4.PPower4 "$@"

@@ -1,0 +1,206 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2005.6.15)  29 JUL 2005 21:34
+entering extended mode
+**BMUD.tex
+(BMUD.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8g> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(IEEETran.cls
+Document Class `IEEEtran' V1.5 <26-July-2001>
+Read the source comments for docs.
+
+LaTeX Warning: You have requested document class `IEEETran',
+               but the document class provides `IEEEtran'.
+
+Document Class: IEEEtran 2001/07/26 revision V1.5 by M. Shell and J. v.Hagen
+-- This is a 10 point document
+\@IEEEmarginA=\dimen102
+\@IEEEmarginB=\dimen103
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\dimen112
+\@iedjustify=\count79
+\@iedtopsep=\dimen113
+\@iedlabelwidth=\dimen114
+\@iedlabelsep=\dimen115
+\@iedleftmargin=\dimen116
+\@iedpartopsep=\dimen117
+\@iedparsep=\dimen118
+\@ieditemsep=\dimen119
+\@iedrightmargin=\dimen120
+\@iedlistparindent=\dimen121
+\@ieditemindent=\dimen122
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\@maxsep=\dimen123
+\@dblmaxsep=\dimen124
+\captionindent=\skip41
+\c@figure=\count84
+\c@table=\count85
+\tmpitemindent=\dimen125
+) (C:\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(C:\texmf\tex\latex\amscls\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip42
+\thm@postskip=\skip43
+\thm@headsep=\skip44
+\dth@everypar=\toks20
+)
+(C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+)
+(C:\texmf\tex\latex\floatflt\floatflt.sty
+Package: floatflt 1996/02/27 v. 1.3
+\c@OptionTest=\count86
+\figbox=\box26
+\tabbox=\box27
+\pagebox=\box28
+\ffigcount=\count87
+\ftabcount=\count88
+\fftest=\count89
+\hangcount=\count90
+\nosuccesstryfig=\count91
+\nosuccesstrytab=\count92
+\figgutter=\dimen128
+\tabgutter=\dimen129
+\htdone=\dimen130
+\pageht=\dimen131
+\startpageht=\dimen132
+\tabbredd=\dimen133
+\floatfltwidth=\dimen134
+\fltitemwidth=\dimen135
+\outputpretest=\toks22
+)
+\c@Prop=\count93
+\c@lemma=\count94
+
+
+LaTeX Warning: Unused global option(s):
+    [a4paper,fleqn].
+
+(BMUD.aux
+
+LaTeX Warning: Label `b_MLS' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 83.
+ (C:\texmf\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+ (C:\texmf\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+
+(C:\texmf\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 85.
+ [1
+
+
+]
+Underfull \hbox (badness 2626) in paragraph at lines 186--192
+[][]\OT1/ptm/m/n/10 We con-sider forward-link trans-mis-sions in a
+ []
+
+[2] [3]
+Underfull \hbox (badness 1629) in paragraph at lines 543--549
+\OT1/ptm/m/n/10 mul-tiuser de-tec-tor is asymp-totic mul-tiuser ef-fi-ciency
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 632.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 640.
+
+[4] (BMUD.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 21.
+ (C:\texmf\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Missing character: There is no ü in font ptmr7t!
+) [5
+
+] (BMUD.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1282 strings out of 95898
+ 13229 string characters out of 1195288
+ 72722 words of memory out of 1063187
+ 4268 multiletter control sequences out of 60000
+ 20356 words of font info for 67 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 25i,22n,43p,202b,205s stack positions out of 1500i,500n,5000p,200000b,32768s
+
+Output written on BMUD.dvi (5 pages, 37200 bytes).
