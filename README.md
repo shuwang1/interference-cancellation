@@ -1,5 +1,5 @@
-# interference-cancellation
-### Snap Blind and Semiblind Multiuser Detection and Interference Cancellation
+# Snap Interference Cancellation
+### Snap Blind or Semiblind Multiuser Detection and Interference Cancellation
 
 Interference cancellation (IC) is the strategy for forming an estimate of incurred interference, like intersymbol interference (ISI), co-channel interference (CCI), adjacent channel
 interference (ACI), etc., and subtracting it from received signals before detection. Though it has intensively been investigated over the last decades, its commercial applications
