@@ -22,20 +22,13 @@ conventional signal model provides us a natural view of received signals, the in
 the receiver lots of efforts to obtain it before detection. 
 
 ## Subspace Multiuser Access Signal Model
-For compensating the weakness of the conventional signal model, the subspace signal model is proposed with subspace-based signal processing techniques [10]. In the subspace signal model, each received signal is
-taken as a linear combination of signal subspace bases, which can be obtained by subspace signal processing techniques on the autocorrelation matrix of received signals. Subspace signal mode can be taken as a result
-of parametric signal modelling and provides a in-depth comprehension of received signals. Though subspacebased approaches don’t need explicitly estimate each user’s signal signature and the initialization and adaptive
-speed are improved with good performance, the signal subspace formation procedure still is not trivial.
+For compensating the weakness of the conventional signal model, the subspace signal model is proposed with subspace-based signal processing techniques [10]. In the subspace signal model, each received signal is taken as a linear combination of signal subspace bases, which can be obtained by subspace signal processing techniques on the autocorrelation matrix of received signals. Subspace signal mode can be taken as a result of parametric signal modelling and provides a in-depth comprehension of received signals. Though subspacebased approaches don’t need explicitly estimate each user’s signal signature and the initialization and adaptive speed are improved with good performance, the signal subspace formation procedure still is not trivial.
 
 ## The Proposed Blind Multiuser Access Signal Model
-It is known that the conventional signal model provides us the foundation for both optimal and conventional multiuser receiver design and subspace signal model helps us understand signal underneath structure.
-However, neither of them is easy enough for developing the blind multiuser receivers for high-speed CDMA systems [1]. In order to solve the near-far problem with
-minimum prior knowledge and computation complexity, we propose a new blind multiuser model with directly connecting the current received signal and several previous received signal while no explicitly signal structure
-estimation. With this blind signal model and widely employed signal estimation criteria including least squares (LS), minimum mean-squared errors (MMSE) and maximum likelihood (ML), several novel blind multiuser
-receivers are developed. There is no statistical signal estimation or subspace separation procedure required. Only a minimum number of previously received signals and the desired user’s signal signature waveform and
+It is known that the conventional signal model provides us the foundation for both optimal and conventional multiuser receiver design and subspace signal model helps us understand signal underneath structure. However, neither of them is easy enough for developing the blind multiuser receivers for high-speed CDMA systems [1]. In order to solve the near-far problem with minimum prior knowledge and computation complexity, we propose a new blind multiuser model with directly connecting the current received signal and several previous received signal while no explicitly signal structure estimation. With this blind signal model and widely employed signal estimation criteria including least squares (LS), minimum mean-squared errors (MMSE) and maximum likelihood (ML), several novel blind multiuser receivers are developed. There is no statistical signal estimation or subspace separation procedure required. Only a minimum number of previously received signals and the desired user’s signal signature waveform and
 timing are required. Hence the computation complexity and detection delay can be much reduced.
 
-## Reference
+## References
 [1] J. G. Andrews. Interference cancellation for cellular systems: A contemporary overview. IEEE Wireless Communications, pages 19–29, April 2005.
 
 [2] S. Wang, et al. Toward forward link interference cancellation. In CDG Technology Forum, Burlingame, CA, April 2006.
