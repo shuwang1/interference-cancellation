@@ -34,3 +34,15 @@ minimum prior knowledge and computation complexity, we propose a new blind multi
 estimation. With this blind signal model and widely employed signal estimation criteria including least squares (LS), minimum mean-squared errors (MMSE) and maximum likelihood (ML), several novel blind multiuser
 receivers are developed. There is no statistical signal estimation or subspace separation procedure required. Only a minimum number of previously received signals and the desired user’s signal signature waveform and
 timing are required. Hence the computation complexity and detection delay can be much reduced.
+
+
+[1] J. G. Andrews. Interference cancellation for cellular systems: A contemporary overview. IEEE Wireless Communications, pages 19–29, April 2005.
+[2] S. Wang, et al. Toward forward link interference cancellation. In CDG Technology Forum, Burlingame, CA, April 2006.
+[3] Airvana. Enhancd cdma2000 support for femto/pico devices. In 3GPP2 TSG-C WG3 C30-20070514-022, San Diego, California, May 2007.
+[4] S. Verdu. Multiuser Detection. Cambridge University Press, 1998. 
+[5] S. Wang and J. Caffery. On interference cancellation for synchronous cdma. In International Symposium on Wireless Communications (ISWC) 2002, September 2002.
+[6] M. Kaveh and J. Salz. Cross-polarization cancellation and equalization in digital transmission over dually polarized multipath fading channels. AT&T Techn. Jour., 64:2211–2245, December 1985.
+[7] A. Duel-Hallen. Decorrelating decision-feedback detector for asynchronous code-division multiple-access channels. IEEE Trans. On Communications, 43:421–434, February 1995.
+[8] U. Madhow and M. Honig. Mmse interference suppression for directsquence spread spectrum cdma. IEEE Trans. on Communication, 42:3178–3188, December 1994.
+[9] X. Zhang and W. Wei. Blind adaptive multiuser detection based on kalman filtering. IEEE Transactions on Signal Processing.
+[10] X. Wang and H. V. Poor. Blind multiuser detection: A subspace approach. IEEE Trans. on Info. Theo., 44:677–691, March 1998.
