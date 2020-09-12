@@ -1,6 +1,4 @@
-# Snap Interference Cancellation
-### Snap Blind or Semiblind Multiuser Detection and Interference Cancellation
-
+# Snap Blind Interference Cancellation
 Interference cancellation (IC) is the strategy for forming an estimate of incurred interference, like intersymbol interference (ISI), co-channel interference (CCI), adjacent channel
 interference (ACI), etc., and subtracting it from received signals before detection. Though it has intensively been investigated over the last decades, its commercial applications
 for mitigating multiuser access interference (MAI) in mobile network can only be found in the last serval years [1]. Several IC schemes, such as successive IC and subspacebased IC, have been reported to be implemented for 3G
