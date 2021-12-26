@@ -10,7 +10,7 @@ assumption isn’t consistent with many practical situations where the receiver 
 been devoted to semiblind/blind implementation of IC for the practical applications in which adaptive filter techniques, e.g., Wiener filtering [8], Kalman filtering [9] and subspace-based
 implementations [10], are among the popular choices.
 
-## Conventional Multiuser Signal Model
+## Prior Art I, Conventional Multiuser Signal Model
 In the procedure of advanced multiuser receiver development, it is known that a proper received signal model can help us understand received signals as well
 as receiver design. There are two popular multiuser signal models which have been intensively discussed for multiuser receiver design. They are the conventional multiuser signal model and the subspace-based multiuser
 signal model. In the conventional signal model, each received signal is directly taken as a linear combination of actual signal signatures [4], [11], [9]. Most related blind multiuser receivers are developed either by explicitly estimating the signal signature [4] or by removing
@@ -18,7 +18,7 @@ interfering signal components using adaptive filtering techniques, e.g., the bli
 conventional signal model provides us a natural view of received signals, the involved signature waveforms or amplitudes information is unknown and it usually take
 the receiver lots of efforts to obtain it before detection. 
 
-## Subspace Multiuser Signal Model
+## Prior Art II, Subspace Multiuser Signal Model
 For compensating the weakness of the conventional signal model, the subspace signal model is proposed with subspace-based signal processing techniques [10]. In the subspace signal model, each received signal is taken as a linear combination of signal subspace bases, which can be obtained by subspace signal processing techniques on the autocorrelation matrix of received signals. Subspace signal mode can be taken as a result of parametric signal modelling and provides a in-depth comprehension of received signals. Though subspacebased approaches don’t need explicitly estimate each user’s signal signature and the initialization and adaptive speed are improved with good performance, the signal subspace formation procedure still is not trivial.
 
 ## The Proposed Blind Multiuser Signal Model
